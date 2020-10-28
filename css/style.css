@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type=text]{
+    padding: 10px 40px;
+    border: 2px solid #4682B4;
+    border-radius: 3px;
+}
+input[type=email]{
+    padding: 10px 40px;
+    border: 2px solid #4682B4;
+    border-radius: 3px;
+}
+textarea[name=comment]{
+    border: 2px solid #4682B4;
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+input[type=submit]{
+    padding: 10px 80px;
+    background-color: #4682B4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #eeeeee;
+    border-radius: 3px;
+}
