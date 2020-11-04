@@ -3,7 +3,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .second-page{
-    color: red;
+    background-color:  #4682B4;
 }
 input[type=text]{
     padding: 10px 40px;
