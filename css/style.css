@@ -31,4 +31,17 @@ input[type=submit]{
     font-weight: bold;
     color: #eeeeee;
     border-radius: 3px;
+    margin-bottom: 18px;
+}
+.light-button{
+    padding: 8px 37px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    outline: none;
+    border-color: #4682B4;
+    cursor: pointer;
+    font-weight: bold;
+    color: #4682B4;
+    border-radius: 3px;
 }
