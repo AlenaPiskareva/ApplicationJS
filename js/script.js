@@ -14,5 +14,10 @@
 
 //Task3
 //С помощью свойства value получаем данные из поля ввода
-let input = document.querySelector('input');
-console.log(input.value);
+//let input = document.querySelector('input');
+//console.log(input.value);
+
+//Вывод данных поля на страницу
+let paragraph = document.querySelector('.name-subtitle');
+let email = document.querySelector('.subscription-email');
+paragraph.textContent = email.value;
