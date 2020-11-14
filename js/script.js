@@ -26,12 +26,21 @@
 //alert(55*(7 + 2)/(4 + 2));
 
 //Счетчик
-let heart = document.querySelector('.heart');
+
+/*let heart = document.querySelector('.heart');
 let likesNumber = document.querySelector('.likes-number');
 let counter = 0;
 
 heart.onclick = function () {
     likesNumber.textContent = counter++;
   	heart.classList.toggle('added');
-};
+};*/
 
+//Task 4.
+//Задача 1.
+let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
+let message = (year < 2015) ? 'Это слишком рано...' :
+    (year > 2015) ? 'Это поздновато':
+    (year = 2015) ? 'Верно!':
+'';
+alert(message);
