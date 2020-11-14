@@ -18,6 +18,9 @@
 //console.log(input.value);
 
 //Вывод данных поля на страницу
-let paragraph = document.querySelector('.name-subtitle');
-let email = document.querySelector('.subscription-email');
-paragraph.textContent = email.value;
+//let paragraph = document.querySelector('.name-subtitle');
+//let email = document.querySelector('.subscription-email');
+//paragraph.textContent = email.value;
+
+//Задачка по приоритетам
+alert(55*(7 + 2)/(4 + 2));
