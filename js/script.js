@@ -45,7 +45,7 @@ let message = (year < 2015) ? 'Это слишком рано...' :
 '';
 alert(message);*/
 //Задача 2.
-let age = prompt('Возраст?', '');
+/*let age = prompt('Возраст?', '');
 if (age < 3) {
     alert('Здравствуй, малыш!');
     }
@@ -54,4 +54,14 @@ else if (age < 18) {
     }
 else if (age < 100) {
     alert('Здравствуйте!');
-    }
+    }*/
+
+//Задача 3.
+let exam = prompt('Оценка за экзамен', '0-100');
+let project = prompt('Количество проектов', '');
+let finalGrade = (exam > 90 && project > 10) ? '100':
+    (exam > 75 && project >= 5) ? '90':
+    (exam > 50 && project >= 2) ? '75':
+    (exam < 50 && project < 2) ? '0':
+    '';
+alert (finalGrade);
