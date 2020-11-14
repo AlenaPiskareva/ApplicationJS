@@ -45,3 +45,15 @@ input[type=submit]{
     color: #4682B4;
     border-radius: 3px;
 }
+.heart{
+    padding: 8px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    outline: none;
+    border-color: #4682B4;
+    cursor: pointer;
+    font-weight: bold;
+    color: #4682B4;
+    border-radius: 3px;
+}

@@ -23,4 +23,15 @@
 //paragraph.textContent = email.value;
 
 //Задачка по приоритетам
-alert(55*(7 + 2)/(4 + 2));
+//alert(55*(7 + 2)/(4 + 2));
+
+//Счетчик
+let heart = document.querySelector('.heart');
+let likesNumber = document.querySelector('.likes-number');
+let counter = 0;
+
+heart.onclick = function () {
+    likesNumber.textContent = counter++;
+  	heart.classList.toggle('added');
+};
+
