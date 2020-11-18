@@ -14,10 +14,21 @@ alert (`Привет, ${userName.name}`);
 messageName();*/
 
 //Циклы
-function range(){
+/*function range(){
    let start = 15;
    let end = 30;
     for (let array = start; array <= end; array++)
     alert (array);
 }
-range();
+range();*/
+
+function rangeOdd(){
+    let start = 15;
+    let end = 30;
+    for (let array = start; array <= end; array++){
+        if (array % 2 != 0 ){
+            alert(array);
+        }
+    }
+}
+rangeOdd();
