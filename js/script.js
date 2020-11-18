@@ -2,7 +2,7 @@
 
 //Task 5
 //Идентификаторы
-let userName = {
+/*let userName = {
     name: "Alena",
     }
 const userYear = {
@@ -11,4 +11,13 @@ const userYear = {
 function messageName(){
 alert (`Привет, ${userName.name}`);
 }
-messageName();
+messageName();*/
+
+//Циклы
+function range(){
+   let start = 15;
+   let end = 30;
+    for (let array = start; array <= end; array++)
+    alert (array);
+}
+range();
