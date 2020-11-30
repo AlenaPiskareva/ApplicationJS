@@ -37,3 +37,19 @@ for (let i = 1; i <= n; i++){
 return(squareSum ** 2 - sumSquare);
 }
 alert(sumSquareDifference(n));*/
+
+//Задача 3.
+/*const firsrUser = {
+    name: "Tom"
+};
+let secondUser = {
+    name: "Robert"
+};
+console.log(firsrUser,secondUser, '\n');
+firsrUser.name = 'Michel';
+secondUser.name = 'Garry';
+console.log(firsrUser,secondUser, '\n');*/
+
+function creatUser(name, city) {
+    return {name: 'Marcus',city: 'Moscow'};
+}
